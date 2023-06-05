@@ -3,10 +3,13 @@ public class Enrollee {
     private String name;
     private int score;
 
+<<<<<<< HEAD
     public Enrollee () {
 
     }
 
+=======
+>>>>>>> 37d3c8bae54350ed2afc512d5852513d9778edb5
     public Enrollee (String id, String name, int score) {
         this.id = id;
         this.name = name;
@@ -36,4 +39,8 @@ public class Enrollee {
     public void setScore (int score) {
         this.score = score;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 37d3c8bae54350ed2afc512d5852513d9778edb5
 }
