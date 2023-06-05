@@ -1,19 +1,24 @@
 public class Instructor {
     private String name;
     private String id;
-    public Instructor (String id) {
-
-    }
-
-    public void setName (String name) {
-
-    }
-
-    public String getName () {
-        return null;
+    public Instructor (String id, String name) {
+        this.id = id;
+        this.name = name;
     }
 
     public String getId () {
-        return null;
+        return this.id;
+    }
+
+    public void setId (String id) {
+        this.id = id;
+    }
+
+    public void setName (String name) {
+        this.name = name;
+    }
+
+    public String getName () {
+        return this.name;
     }
 }
