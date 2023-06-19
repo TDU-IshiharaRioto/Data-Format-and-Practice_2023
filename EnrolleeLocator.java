@@ -4,6 +4,7 @@ import java.util.List;
 import javax.json.bind.annotation.JsonbProperty;
 
 public class EnrolleeLocator implements Iterable<Enrollee>{
+
     @JsonbProperty(value = "enrollees")
     private List<Enrollee> enrollees = new ArrayList<Enrollee>();
 

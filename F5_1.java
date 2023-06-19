@@ -9,8 +9,11 @@ public class F5_1 {
             System.out.println(enrollee.getId() + " " + enrollee.getName() + " " + enrollee.getScore());
         }
 
+        /*
         for (Enrollee enrollee: locator) {
             System.out.println(enrollee.getId() + " " + enrollee.getName() + " " + enrollee.getScore());
         }
+        */
+
     }
 }
